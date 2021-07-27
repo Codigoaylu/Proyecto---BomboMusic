@@ -35,7 +35,6 @@ p{
 }
 
 .music {
-    padding-left: 80px;
     width: 30%;
 }
 
@@ -43,14 +42,15 @@ p{
     background-color: #00F387;
     border-radius: 30px;
     color: white;
-    padding-left: 550px;
+    padding-left: 55px;
     padding-top: 10px;
     padding-right: 55px;
     padding-bottom: 10px;
 }
 
 .drumkitimage{
-    width: 70%;
+    width: 780px;
+    height: 580px;
 }
 
 
