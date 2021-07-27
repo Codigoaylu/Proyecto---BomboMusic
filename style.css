@@ -26,6 +26,7 @@ li {
 
 .content2{
     display: flex;
+    margin: 50px;
 }
 
 h1{
@@ -35,5 +36,26 @@ h1{
 p{
     color: #B8B8B8;
 }
+
+.music {
+    width: 30%;
+}
+
+.green {
+    background-color: #00F387;
+    border-radius: 30px;
+    color: white;
+    padding-left: 55px;
+    padding-top: 10px;
+    padding-right: 55px;
+    padding-bottom: 10px;
+}
+
+.drumkitimage{
+    width: 780px;
+    height: 580px;
+}
+
+
 
 
