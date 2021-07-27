@@ -1,20 +1,19 @@
-container{
+.container{
     background-color: darkblue;
     display: block;
-}
+git}
 
-.content1 { 
+.content1{ 
     list-style: none;
     display: flex;
-}
-
-           
+}      
  nav { 
+    nav-right: auto;
     text-align: center; 
     padding: 10px;
 }
 
- li {
+ ol {
         padding: 10px;
        list-style: none;
        display: flex;
