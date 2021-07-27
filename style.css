@@ -1,3 +1,8 @@
+body{
+    color: #070125;
+    display: block;
+}
+
 .container1 { 
     color:navy ;
            
@@ -11,4 +16,12 @@
        text-align: center;
        margin:auto;
        padding: 10px;
+}
+
+.container2{
+    display: flex;
+}
+
+h1{
+    color: white;
 }
