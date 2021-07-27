@@ -1,5 +1,5 @@
 .container{
-    color: #070125;
+    background: blue ;
     display: block;
 }
 
@@ -11,10 +11,10 @@
     nav-right: auto;
     text-align: center; 
     justify-content: space-between;
-display: flex;
+    display: flex;
 }
-
- ol {
+g
+nav ol {
        padding: 10px;
        list-style: none;
        display: flex;
