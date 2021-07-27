@@ -75,8 +75,12 @@ p{
         justify-content: center;
         flex-direction: column;
         align-items: center;
+<<<<<<< HEAD
         margin: 0px;
         padding-bottom: 100px;
+=======
+        margin:0px;
+>>>>>>> 680485968eaf24d1ba9682470982cbc79f7e673f
     }
 
 .white {
