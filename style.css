@@ -3,21 +3,19 @@
     display: block;
 }
 
-.content1{ 
+.content1 { 
     list-style: none;
     display: flex;
-}      
- nav { 
-    nav-right: auto;
-    text-align: center; 
     justify-content: space-between;
-display: flex;
+}      
+ .menu{ 
+    text-align: center; 
+    display: flex;
 }
-
- ol {
-       padding: 10px;
+li {
+       margin: 10px;
        list-style: none;
-       display: flex;
+       color: white;
 }
 
 .content2{
