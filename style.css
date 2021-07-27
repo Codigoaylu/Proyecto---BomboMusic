@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
 }      
- .menu{ 
+ ol { 
     text-align: center; 
     display: flex;
 }
@@ -17,6 +17,9 @@ li {
        list-style: none;
        color: white;
 }
+.signin { 
+    color: cyan;
+}  
 
 .content2{
     display: flex;
