@@ -1,20 +1,11 @@
-<<<<<<< HEAD
-.contenteiner { 
+.container { 
     color: blue;
+    display: block;
 }
 .content1 { 
     list-style: none;
     display: flex;
 }
-=======
-container{
-    color: #070125;
-    display: block;
-}
-
-.container1 { 
-    color:navy ;
->>>>>>> 01ef884cc6b6915bd359818cb3ffd0f0bf22e5a6
            
  nav-right: auto; { 
     text-align: center; 
