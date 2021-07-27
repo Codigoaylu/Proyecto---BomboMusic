@@ -33,4 +33,25 @@ p{
     color: #B8B8B8;
 }
 
+.music {
+    padding-left: 80px;
+    width: 30%;
+}
+
+.green {
+    background-color: #00F387;
+    border-radius: 30px;
+    color: white;
+    padding-left: 550px;
+    padding-top: 10px;
+    padding-right: 55px;
+    padding-bottom: 10px;
+}
+
+.drumkitimage{
+    width: 70%;
+}
+
+
+
 
