@@ -6,10 +6,7 @@ container{
 .content1 { 
     list-style: none;
     display: flex;
-}
-
-           
- nav-right: auto; { 
+    nav-right: auto;
     text-align: center; 
     padding: 10px;
 }
