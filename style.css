@@ -1,5 +1,10 @@
-.container1 { 
-    color:navy ;
+.contenteiner { 
+    color: blue;
+}
+.content1 { 
+    list-style: none;
+    display: flex;
+}
            
  nav-right: auto; { 
     text-align: center; 
