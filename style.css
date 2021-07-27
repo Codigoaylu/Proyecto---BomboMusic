@@ -1,23 +1,21 @@
 .container{
-    background: blue ;
+    background-color: #070125;
     display: block;
 }
 
-.content1{ 
+.content1 { 
     list-style: none;
     display: flex;
-}      
- nav { 
-    nav-right: auto;
-    text-align: center; 
     justify-content: space-between;
+}      
+ .menu{ 
+    text-align: center; 
     display: flex;
 }
-g
-nav ol {
-       padding: 10px;
+li {
+       margin: 10px;
        list-style: none;
-       display: flex;
+       color: white;
 }
 
 .content2{
