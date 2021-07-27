@@ -1,5 +1,5 @@
 container{
-    color: #070125;
+    background-color: darkblue;
     display: block;
 }
 
@@ -9,16 +9,15 @@ container{
 }
 
            
- nav-right: auto; { 
+ nav { 
     text-align: center; 
     padding: 10px;
 }
 
- nav li {
-       display: inline-block;
-       text-align: center;
-       margin:auto;
-       padding: 10px;
+ li {
+        padding: 10px;
+       list-style: none;
+       display: flex;
 }
 
 .content2{
