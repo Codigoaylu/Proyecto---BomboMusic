@@ -2,22 +2,29 @@
     background-color: #070125;
     display: block;
     font-style: roboto;
+    width: 100%;
 }
 
 .content1 { 
-    list-style: none;
     display: flex;
     justify-content: space-between;
-    margin: 5%;
 }   
-    
-.head { 
-    margin- top: 5%; 
+   
+.head{ 
+    margin: 20px;
+    margin-left: 30px;
+
+}
+
+.menu { 
+    margin: 20px;
+
 }
 
  ol { 
-    text-align: center; 
+    list-style: none;
     display: flex;
+    flex-direction: row;
 }
 li {
        margin: 10px;
