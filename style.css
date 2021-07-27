@@ -1,18 +1,12 @@
 .container1 { 
     color:navy ;
            
-h1 { 
-    color: white
-    text-align:center;
-    background-color:navy;
-}
-
-nav { 
+ nav-right: auto; { 
     text-align: center; 
     padding: 10px;
 }
 
-nav li {
+ nav li {
        display: inline-block;
        text-align: center;
        margin:auto;
