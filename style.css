@@ -1,11 +1,13 @@
-.container { 
-    color: blue;
+container{
+    color: #070125;
     display: block;
 }
+
 .content1 { 
     list-style: none;
     display: flex;
 }
+
            
  nav-right: auto; { 
     text-align: center; 
