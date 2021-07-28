@@ -102,8 +102,8 @@ p{
     }
     
     .content1 { 
-        display: flex;
-        justify-content: space-between;
+        display: block;
+
     }   
        
     .head{ 
@@ -117,25 +117,14 @@ p{
         margin-top: 10px;
         margin-left: 0px;
         padding-left: 0%;
+        display: none;
     
     }
     
-     ol { 
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-    }
-    li {
-           margin: 10px;
-           list-style: none;
-           color: white;
-    }
-    .signin { 
-        color:#00F387;
-    }  
+
     
     .content2{
-        display: flex;
+        display: block;
         margin: 10px;
     }
     
