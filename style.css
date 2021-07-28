@@ -45,6 +45,7 @@ li {
 
 h1{
     color: white;
+    font-size: 70px;
 }
 
 p{
@@ -69,7 +70,7 @@ p{
 }
 
 .drumkitimage{
-   margin-left: 100px;
+   margin-left: 180px;
 }
 
 .content3 {
@@ -80,6 +81,10 @@ p{
         margin: 0px;
         padding-bottom: 100px;
     }
+
+.textfooter {
+    font-size: 30px;
+}
 
 .white {
     background-color: #ffffff;
