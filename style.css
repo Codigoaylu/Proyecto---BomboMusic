@@ -28,6 +28,8 @@
     list-style: none;
     display: flex;
     flex-direction: row;
+    align-content: center;
+    display: flex;
 }
 li {
        margin: 10px;
@@ -114,8 +116,8 @@ p{
     .head{ 
         margin-left: 10px;
         margin-top: 10px;
-    
-    }
+        align-items: center ;
+        }
     
     .menu { 
         margin-right: 10px;
