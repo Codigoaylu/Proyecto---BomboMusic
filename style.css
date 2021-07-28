@@ -131,12 +131,16 @@ p{
 
     
     .content2{
-        display: block;
-        margin: 10px;
-    }
     
+        margin: 10px;
+        display: block;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     h1{
         color: white;
+        font-size: 30px;
     }
     
     p{
@@ -161,7 +165,13 @@ p{
     }
     
     .drumkitimage{
-       margin-left: 10px;
+        margin-left: 0%;
+    }
+
+    .drum {
+        width: 400px;
+        height: 310px;
+        margin-left: 5px;
     }
     
     .content3 {
@@ -173,6 +183,11 @@ p{
             padding-bottom: 10px;
         }
     
+    .textfooter {
+            font-size: 30px;
+        }
+
+        
     .white {
         background-color: #ffffff;
         border-radius: 10px;
