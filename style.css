@@ -146,24 +146,24 @@ p{
     }
     
     .music {
-        margin-left: 10px;
+        margin-left: 100px;
     }
     
     .green {
         background-color: #00F387;
         border-radius: 30px;
         color: white;
-        padding-left: 10px;
+        padding-left: 50px;
         padding-top: 10px;
-        padding-right: 10px;
+        padding-right: 50px;
         padding-bottom: 10px;
         font-style:normal;
-        width: 10px;
-        height: 10px;
+        width: 100px;
+        height: 100px;
     }
     
     .drumkitimage{
-        margin-left: 0%;
+        margin-left: 10px;
     }
 
     .drum {
