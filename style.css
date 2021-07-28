@@ -1,13 +1,19 @@
+body {
+    background-color: #070125; 
+}
 .container{
-    background-color: #070125;
     display: block;
     font-style: roboto;
+    display: flex;
+    align-items: center;
     width: 100%;
+    margin: 0 auto;
 }
 
 .content1 { 
     display: flex;
     justify-content: space-between;
+
 }   
 .header { 
     display: none;
@@ -20,10 +26,10 @@
 }
 
 .menu { 
-    margin-right: 350px;
-    margin-top: 80px;
-    margin-left: 0px;
-    padding-left: 0%;
+   
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
 
 }
 
@@ -130,6 +136,7 @@ font-style:normal;
 width: 10px;
 height: 10px;
 }
+
 .fotomenu {
 width: 10px;
 height: 10px ;
