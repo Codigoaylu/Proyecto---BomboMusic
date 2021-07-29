@@ -87,6 +87,64 @@ p{
    margin-left: 180px;
 }
 
+.boton1 {
+    width: 90px ;
+    height:90px;
+    border-radius: 50px;
+    background-color: black;
+    
+   }
+   .boton2 {
+       width: 90px ;
+       height:90px;
+       border-radius: 50px;
+       background-color: black;
+      }
+   
+      .boton3 {
+       width: 90px ;
+       height:90px;
+       border-radius: 50px;
+       background-color: black;
+      }
+      .boton4 {
+       width: 90px ;
+       height:90px;
+       border-radius: 50px;
+       background-color: black;
+      }
+      .boton5 {
+       width: 130px ;
+       height:130px;
+       border-radius: 80px;
+       background-color: black;
+      }
+      .boton6{
+       width: 130px ;
+       height:130px;
+       border-radius: 80px;
+       background-color: black;
+      }
+      .boton7 {
+       width: 130px ;
+       height:130px;
+       border-radius: 80px;
+       background-color: black;
+      }
+      .boton8 {
+       width: 130px ;
+       height:130px;
+       border-radius: 80px;
+       background-color: black;
+      }
+      .boton5 {
+       width: 130px ;
+       height:130px;
+       border-radius: 80px;
+       background-color: black;
+      }
+   
+
 .muestra {
     display: none;
 }
@@ -230,5 +288,50 @@ height: 90% ;
         padding-bottom: 10px;
         font-weight: bolder;
     }
+
+    .boton1 {
+        width: 20px ;
+        height:20px;
+        border-radius: 20px;
+        background-color: black;
+        
+       }
+       .boton2 {
+           width: 20px ;
+           height:20px;
+           border-radius: 20px;
+           background-color: black;
+          }
+       
+          .boton3 {
+           width: 20px ;
+           height:20px;
+           border-radius: 20px;
+           background-color: black;
+          }
+          .boton4 {
+           width: 20px ;
+           height:20px;
+           border-radius: 20px;
+           background-color: black;
+          }
+          .boton5 {
+           width: 30px ;
+           height:30px;
+           border-radius: 30px;
+           background-color: black;
+          }
+          .boton6{
+           width: 30px ;
+           height:30px;
+           border-radius: 30px;
+           background-color: black;
+          }
+          .boton7 {
+           width: 30px ;
+           height: 30px;
+           border-radius: 30px;
+           background-color: black;
+
 }
 
