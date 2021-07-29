@@ -116,27 +116,28 @@ p{
 }
 
 @media only screen and (max-width:400px){
-   
+   .content1 {
+       flex-direction: column;
+    }
    
 .header  { 
-    margin-top: 20%;
+    display: inline-flex;
+    color: white;
+}
+.header img { 
+    height: 20px;
 }
 .botonmenu {
 background-color: #00F387;
-border-radius: 30px;
-padding-left: 10px;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-font-style:normal;
-width: 10px;
-height: 10px;
+width: 60px;
+height: 30px;
+margin-left: 310px;
 }
 
 .fotomenu {
 width: 10px;
 height: 10px ;
-}   
+}
        
     .head{ 
         margin-left: 18%;
@@ -177,16 +178,9 @@ height: 10px ;
     }
     
     .green {
-        background-color: #00F387;
-        border-radius: 30px;
-        color: white;
-        padding-left: 50px;
-        padding-top: 10px;
-        padding-right: 50px;
-        padding-bottom: 10px;
-        font-style:normal;
-        width: 100px;
-        height: 100px;
+       
+        width: 200px;
+        height: 50px;
     }
     
     .drumkitimage{
@@ -209,10 +203,11 @@ height: 10px ;
         }
     
     .textfooter {
-            font-size: 30px;
+            font-size: 15px;
+            text-align: center;
         }
-
         
+  
     .white {
         background-color: #ffffff;
         border-radius: 10px;
