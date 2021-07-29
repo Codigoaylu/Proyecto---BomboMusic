@@ -4,7 +4,7 @@ body {
 .container{
     font-style:roboto;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
     align-items: center;
     width: 100%;
     margin: 0 auto;
@@ -119,10 +119,19 @@ p{
    .content1 {
        flex-direction: column;
     }
-   
+    .mobile {
+        padding-top: 5px;
+    }
+   .header p  {
+       margin-left: 15%;
+       margin-right: 15%;
+    font-weight: bold;
+    margin-top: 0%;
+    }   
 .header  { 
     display: inline-flex;
     color: white;
+    margin-top: 0%;
 }
 .header img { 
     height: 20px;
@@ -131,12 +140,12 @@ p{
 background-color: #00F387;
 width: 60px;
 height: 30px;
-margin-left: 310px;
+margin-left: 300px;
+border-radius: 20px ;
 }
 
 .fotomenu {
-width: 10px;
-height: 10px ;
+height: 90% ;
 }
        
     .head{ 
@@ -166,7 +175,7 @@ height: 10px ;
 
     h1{
         color: white;
-        font-size: 30px;
+        font-size: 40px;
     }
     
     p{
@@ -174,23 +183,26 @@ height: 10px ;
     }
     
     .music {
-        margin-left: 100px;
+        margin-left: 18%;
+        text-size-adjust: 10%;
     }
     
     .green {
        
         width: 200px;
         height: 50px;
+        margin-left: 3%;
     }
     
     .drumkitimage{
-        margin-left: 10px;
+        margin-left: 18%;
     }
 
     .drum {
-        width: 400px;
-        height: 310px;
-        margin-left: 5px;
+        width: 200px;
+        height: 150px;
+        padding: 2%;
+        margin-left: auto;    
     }
     
     .content3 {
