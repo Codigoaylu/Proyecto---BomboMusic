@@ -2,11 +2,11 @@ body {
     background-color: #070125; 
 }
 .container{
-    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
@@ -16,7 +16,7 @@ body {
     flex-direction: row;
 
 }   
-.header { 
+.botonmenu, .fotomenu{ 
     display: none;
 } 
 
@@ -334,4 +334,3 @@ height: 90% ;
            background-color: black;
 
 }
-
