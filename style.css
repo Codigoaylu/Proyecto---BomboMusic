@@ -2,7 +2,7 @@ body {
     background-color: #070125; 
 }
 .container{
-    font-style:roboto;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
