@@ -213,10 +213,7 @@ height: 90% ;
         align-items: center;
     }
     .menu { 
-        margin-right: 10px;
-        margin-top: 10px;
-        margin-left: 0px;
-        padding-left: 0%;
+       
         display: none;
     
     }
@@ -232,14 +229,10 @@ height: 90% ;
     }
 
     h1{
-        color: white;
         font-size: 40px;
     }
     
-    p{
-        color: #B8B8B8;
-    }
-    
+  
     .music {
         margin-left: 18%;
         text-size-adjust: 10%;
@@ -263,14 +256,6 @@ height: 90% ;
         margin-left: auto;    
     }
     
-    .content3 {
-        display:flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            margin: 0px;
-            padding-bottom: 10px;
-        }
     
     .textfooter {
             font-size: 15px;
