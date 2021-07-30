@@ -2,9 +2,9 @@ body {
     background-color: #070125; 
 }
 .container{
-    font-family: 'Roboto', sans-serif;
     display: flex;
     width: 100%;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
@@ -14,7 +14,7 @@ body {
     flex-direction: row;
 
 }   
-.header { 
+.botonmenu, .fotomenu{ 
     display: none;
 } 
 
@@ -143,6 +143,64 @@ p{
     background-color: black;
    }
 
+.boton1 {
+    width: 90px ;
+    height:90px;
+    border-radius: 50px;
+    background-color: black;
+    
+   }
+   .boton2 {
+       width: 90px ;
+       height:90px;
+       border-radius: 50px;
+       background-color: black;
+      }
+   
+      .boton3 {
+       width: 90px ;
+       height:90px;
+       border-radius: 50px;
+       background-color: black;
+      }
+      .boton4 {
+       width: 90px ;
+       height:90px;
+       border-radius: 50px;
+       background-color: black;
+      }
+      .boton5 {
+       width: 130px ;
+       height:130px;
+       border-radius: 80px;
+       background-color: black;
+      }
+      .boton6{
+       width: 130px ;
+       height:130px;
+       border-radius: 80px;
+       background-color: black;
+      }
+      .boton7 {
+       width: 130px ;
+       height:130px;
+       border-radius: 80px;
+       background-color: black;
+      }
+      .boton8 {
+       width: 130px ;
+       height:130px;
+       border-radius: 80px;
+       background-color: black;
+      }
+      .boton5 {
+       width: 130px ;
+       height:130px;
+       border-radius: 80px;
+       background-color: black;
+      }
+   
+
 .muestra {
     display: none;
 }
@@ -210,10 +268,7 @@ height: 90% ;
         align-items: center;
     }
     .menu { 
-        margin-right: 10px;
-        margin-top: 10px;
-        margin-left: 0px;
-        padding-left: 0%;
+       
         display: none;
     
     }
@@ -228,14 +283,10 @@ height: 90% ;
     }
 
     h1{
-        color: white;
         font-size: 40px;
     }
     
-    p{
-        color: #B8B8B8;
-    }
-    
+  
     .music {
         margin-left: 18%;
         text-size-adjust: 10%;
@@ -311,14 +362,6 @@ height: 90% ;
         margin-left: auto;    
     }
     
-    .content3 {
-        display:flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            margin: 0px;
-            padding-bottom: 10px;
-        }
     
     .textfooter {
             font-size: 15px;
@@ -336,5 +379,49 @@ height: 90% ;
         padding-bottom: 10px;
         font-weight: bolder;
     }
-}
 
+    .boton1 {
+        width: 20px ;
+        height:20px;
+        border-radius: 20px;
+        background-color: black;
+        
+       }
+       .boton2 {
+           width: 20px ;
+           height:20px;
+           border-radius: 20px;
+           background-color: black;
+          }
+       
+          .boton3 {
+           width: 20px ;
+           height:20px;
+           border-radius: 20px;
+           background-color: black;
+          }
+          .boton4 {
+           width: 20px ;
+           height:20px;
+           border-radius: 20px;
+           background-color: black;
+          }
+          .boton5 {
+           width: 30px ;
+           height:30px;
+           border-radius: 30px;
+           background-color: black;
+          }
+          .boton6{
+           width: 30px ;
+           height:30px;
+           border-radius: 30px;
+           background-color: black;
+          }
+          .boton7 {
+           width: 30px ;
+           height: 30px;
+           border-radius: 30px;
+           background-color: black;
+
+}
