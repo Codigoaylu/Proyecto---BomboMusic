@@ -3,8 +3,6 @@ body {
 }
 .container{
     display: flex;
-    width: 100%;
-    max-width: 1080px;
     margin: 0 auto;
 }
 
@@ -85,19 +83,24 @@ p{
 
 .drumkitimage{
    margin-left: 180px;
+   position: relative;
+   display: flex;
 }
 .boton1 {
- width: 90px ;
- height:90px;
- border-radius: 50px;
- background-color: black;
- 
+position: absolute;
+border-radius: 50%;
+ background-color: white;
+ border: none;
+ top: 30px;
+ left: 10px;
 }
 .boton2 {
+    position: absolute;
     width: 90px ;
     height:90px;
     border-radius: 50px;
-    background-color: black;
+    background-color:white;
+    border: none
    }
 
    .boton3 {
@@ -423,5 +426,5 @@ height: 90% ;
            height: 30px;
            border-radius: 30px;
            background-color: black;
-
+           }
 }
