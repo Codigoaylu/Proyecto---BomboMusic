@@ -1,26 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
 body {
     background-color: #070125; 
+    font-family: 'Atkinson Hyperlegible', sans-serif;
 }
+
 .container{
     display: flex;
+    flex-direction: column;
     margin: 0 auto;
 }
 
 .content1 { 
+    position: relative;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-
-}   
-.botonmenu, .fotomenu{ 
-    display: none;
-} 
-
-.head{ 
-    margin-left: 150px;
-    margin-top: 80px;
-
+    justify-content: space-around;
+    width: 100%;
 }
+
+
 .botonmenu {
     display: none;
 }
@@ -28,9 +26,6 @@ body {
    
     display: flex;
     justify-content: center;
-    margin-right: 50px;
-    margin-left: 30%;
-    margin-top: 90px;
     flex-direction: row;
 }
 
@@ -41,6 +36,11 @@ body {
     align-content: center;
     display: flex;
 }
+
+ol:hover{
+   cursor: pointer;
+}
+
 li {
        margin: 10px;
        list-style: none;
@@ -51,8 +51,12 @@ li {
 }  
 
 .content2{
+    position: relative;
     display: flex;
-    margin: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
 }
 
 h1{
@@ -65,7 +69,8 @@ p{
 }
 
 .music {
-    margin-left: 100px;
+    margin-left: 9%;
+
 }
 
 .green {
@@ -81,128 +86,73 @@ p{
     height: 52px;
 }
 
+.button-hit{
+	display:none;
+}
+
 .drumkitimage{
-   margin-left: 180px;
+ 
    position: relative;
    display: flex;
+   margin-top: 5%;
+   margin-right: 5%;
 }
-.boton1 {
-position: absolute;
-border-radius: 50%;
- background-color: white;
- border: none;
- top: 30px;
- left: 10px;
-}
-.boton2 {
+
+
+.btnxs{
+    background-color: white;
+    border-radius: 100%;
+    width: 14%;
+    height: 0%;
+    padding-bottom: 13%;
     position: absolute;
-    width: 90px ;
-    height:90px;
-    border-radius: 50px;
-    background-color:white;
-    border: none
-   }
+}
 
-   .boton3 {
-    width: 90px ;
-    height:90px;
-    border-radius: 50px;
-    background-color: black;
-   }
-   .boton4 {
-    width: 90px ;
-    height:90px;
-    border-radius: 50px;
-    background-color: black;
-   }
-   .boton5 {
-    width: 130px ;
-    height:130px;
-    border-radius: 80px;
-    background-color: black;
-   }
-   .boton6{
-    width: 130px ;
-    height:130px;
-    border-radius: 80px;
-    background-color: black;
-   }
-   .boton7 {
-    width: 130px ;
-    height:130px;
-    border-radius: 80px;
-    background-color: black;
-   }
-   .boton8 {
-    width: 130px ;
-    height:130px;
-    border-radius: 80px;
-    background-color: black;
-   }
-   .boton5 {
-    width: 130px ;
-    height:130px;
-    border-radius: 80px;
-    background-color: black;
-   }
+.btnxl{
+    background-color: white;
+    border-radius: 100%;
+    width: 20%;
+    height: 0%;
+    padding-bottom: 19%;
+    position: absolute;
+}
 
-.boton1 {
-    width: 90px ;
-    height:90px;
-    border-radius: 50px;
-    background-color: black;
-    
-   }
-   .boton2 {
-       width: 90px ;
-       height:90px;
-       border-radius: 50px;
-       background-color: black;
-      }
+.top-right{
+    top: 7%;
+    left: 83%;
+}
+
+.bottom-right{
+    top: 30%;
+    left: 75%;
+}
+.right{
+    top: 54%;
+    left: 64%;
+}
+
+.center-left{
+    top: 17%;
+    left: 28%;
+}
    
-      .boton3 {
-       width: 90px ;
-       height:90px;
-       border-radius: 50px;
-       background-color: black;
-      }
-      .boton4 {
-       width: 90px ;
-       height:90px;
-       border-radius: 50px;
-       background-color: black;
-      }
-      .boton5 {
-       width: 130px ;
-       height:130px;
-       border-radius: 80px;
-       background-color: black;
-      }
-      .boton6{
-       width: 130px ;
-       height:130px;
-       border-radius: 80px;
-       background-color: black;
-      }
-      .boton7 {
-       width: 130px ;
-       height:130px;
-       border-radius: 80px;
-       background-color: black;
-      }
-      .boton8 {
-       width: 130px ;
-       height:130px;
-       border-radius: 80px;
-       background-color: black;
-      }
-      .boton5 {
-       width: 130px ;
-       height:130px;
-       border-radius: 80px;
-       background-color: black;
-      }
-   
+.center-right{
+    top: 17%;
+    left: 52%;
+}
+.top-left{
+    top: 7%;
+    left: 3%;
+}
+.bottom-left{
+    top: 30%;
+    left: 10%;
+}
+.left{
+    top: 54%;
+    left: 16%;
+}
+
 
 .muestra {
     display: none;
@@ -213,15 +163,14 @@ border-radius: 50%;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        margin: 0px;
-        padding-bottom: 100px;
+       margin: 5% 0%;
     }
 
 .textfooter {
     font-size: 30px;
 }
 
-.white {
+.white-button {
     background-color: #ffffff;
     border-radius: 30px;
     color:black;
@@ -232,17 +181,30 @@ border-radius: 50%;
     font-weight: bolder;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width:400px){
    .content1 {
        flex-direction: column;
+ 	align-items: center;
     }
 
-   .header p  {
-       margin-left: 15%;
-       margin-right: 15%;
-    font-weight: bold;
-    margin-top: 0%;
-    }   
+ 
 .header  { 
     display: inline-flex;
     color: white;
@@ -291,8 +253,8 @@ height: 90% ;
     
   
     .music {
-        margin-left: 18%;
-        text-size-adjust: 10%;
+        align-items: center;
+        ftext-size-adjust: 2%;
     }
     
     .green {
@@ -301,9 +263,30 @@ height: 90% ;
         height: 50px;
         margin-left: 3%;
     }
-    
+  
+
+.button-hit{
+	display: flex;
+	background:none;
+	border: none;
+	position: relative;
+	margin-top: 15%;
+
+}
+
+.muestra{
+	display: flex;
+	position: relative;
+}
+
+.button-hit p {
+	position: absolute;
+	top: 30%;
+	left: 40%;
+}
+
     .drumkitimage{
-        margin-left: 18%;
+        align-items: center;
     }
 
     .boton1 {
@@ -383,48 +366,4 @@ height: 90% ;
         font-weight: bolder;
     }
 
-    .boton1 {
-        width: 20px ;
-        height:20px;
-        border-radius: 20px;
-        background-color: black;
-        
-       }
-       .boton2 {
-           width: 20px ;
-           height:20px;
-           border-radius: 20px;
-           background-color: black;
-          }
-       
-          .boton3 {
-           width: 20px ;
-           height:20px;
-           border-radius: 20px;
-           background-color: black;
-          }
-          .boton4 {
-           width: 20px ;
-           height:20px;
-           border-radius: 20px;
-           background-color: black;
-          }
-          .boton5 {
-           width: 30px ;
-           height:30px;
-           border-radius: 30px;
-           background-color: black;
-          }
-          .boton6{
-           width: 30px ;
-           height:30px;
-           border-radius: 30px;
-           background-color: black;
-          }
-          .boton7 {
-           width: 30px ;
-           height: 30px;
-           border-radius: 30px;
-           background-color: black;
-           }
 }
