@@ -366,4 +366,57 @@ height: 90% ;
         font-weight: bolder;
     }
 
+<<<<<<< HEAD
 }
+=======
+    .boton1 {
+        width: 20px ;
+        height:20px;
+        border-radius: 20px;
+        background-color: black;
+        
+       }
+       .boton2 {
+           width: 20px ;
+           height:20px;
+           border-radius: 20px;
+           background-color: black;
+          }
+       
+          .boton3 {
+           width: 20px ;
+           height:20px;
+           border-radius: 20px;
+           background-color: black;
+          }
+          .boton4 {
+           width: 20px ;
+           height:20px;
+           border-radius: 20px;
+           background-color: black;
+          }
+          .boton5 {
+           width: 30px ;
+           height:30px;
+           border-radius: 30px;
+           background-color: black;
+          }
+          .boton6{
+           width: 30px ;
+           height:30px;
+           border-radius: 30px;
+           background-color: black;
+          }
+          .boton7 {
+           width: 30px ;
+           height: 30px;
+           border-radius: 30px;
+           background-color: black;
+           }
+           .boton8 {
+            width: 30px ;
+            height: 30px;
+            border-radius: 30px;
+            background-color: black;
+            }       
+>>>>>>> 260d4c3e41718d4ea503b60f31e8e469139ae838
