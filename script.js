@@ -1,12 +1,31 @@
+function playbombo(){
 
-document.addEventListener('click', function(event){
-
-    let boton = event.target.dataset.boton;
-
-    let sonido = document.querySelector("audio[data-boton="+ boton +" ]");
-
-    sonido.currentTime = 0.1;
-
+    let sonido = document.getElementById("bombo");
+    sonido.currentTime = 0;
     sonido.play();
 
-});
+};
+
+function playcrash(){
+
+    let sonido = document.getElementById("crash");
+    sonido.currentTime = 0.1;
+    sonido.play();
+
+};
+
+function playhithat(){
+
+    let sonido = document.getElementById("hit-hat");
+    sonido.currentTime = 0.1;
+    sonido.play();
+
+};
+
+function playredoblante(){
+
+    let sonido = document.getElementById("redoblante");
+    sonido.currentTime = 0.1;
+    sonido.play();
+
+};
