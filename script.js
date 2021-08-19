@@ -1,10 +1,48 @@
 document.addEventListener("click", function(event){
     let boton = event.target.dataset.boton;
+    let elemento = event.target;
+
+    if(boton){  
+    let audioBoton = document.getElementById(boton);
+    audioBoton.currentTime=0;
+    audioBoton.play();
+    elemento.classList.add("mystyle")
+
+    }
+      
+});
+
+
+
+
+
+/*
+document.addEventListener("click", function(event){
+    let boton = event.target.dataset.boton;
+    if(boton){  
     let sonido = document.getElementById(boton);
     sonido.currentTime=0;
     sonido.play();
+    fondo();
+    }
+            
 });
 
+function fondo(){
+    let boton = document.querySelector("button[data-boton]");
+    console.log(boton);
+    boton.style.backgroundColor="red";
+}
+*/
+
+
+/*
+function myFunction() {
+    let boton = event.target.dataset.boton;
+    document.getElementById("boton").classList.add("mystyle");
+};
+
+document.addEvent
 
 /*
 function playbombo(){
