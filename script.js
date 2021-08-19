@@ -1,3 +1,12 @@
+document.addEventListener("click", function(event){
+    let boton = event.target.dataset.boton;
+    let sonido = document.getElementById(boton);
+    sonido.currentTime=0;
+    sonido.play();
+});
+
+
+/*
 function playbombo(){
 
     let sonido = document.getElementById("bombo");
@@ -63,9 +72,4 @@ function playtom4(){
     sonido.play();
 
 };
-
-
-
-
-
-
+*/
