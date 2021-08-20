@@ -6,7 +6,7 @@ document.addEventListener("click", function(event){
     let audioBoton = document.getElementById(boton);
     audioBoton.currentTime=0;
     audioBoton.play();
-    elemento.classList.add("mystyle")
+    elemento.classList.add("mystyle");
 
     }
       
